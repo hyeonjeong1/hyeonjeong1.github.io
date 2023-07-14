@@ -7,5 +7,6 @@ toc_label: "MYSELF"
 last_modified_at: 2023-07-14
 ---
 
-## Hyeonjeong Shin
-Machine Learning Engineer at Samsung Research
+Hello! I'm a ML/AI research engineer at Samsung Research.
+
+I started this blog to document my footsteps I have taken.
