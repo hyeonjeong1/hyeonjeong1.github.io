@@ -9,6 +9,7 @@ tags:
   - NLP
   - in-context learning
 toc: true
+toc_sticky : true
 toc_label: "Contents"
 use_math: true
 ---
@@ -23,7 +24,7 @@ All figures are from the paper. </span>
 In-context learning is a method of learning new tasks during inference that leads to the improved performance of downstream tasks without requiring additional parameter updates of model.
 As shown in the figure below, a demonstration consists of several input-label examples, and the model learns a new task through this demonstration.
 
-![Figure1](/assets/images/2023-07-14/figure1.png){: width="420"}{: .align-center}
+![figure1](https://github.com/hyeonjeong1/hyeonjeong1.github.io/assets/60830095/06fc6173-e2a9-4207-86a7-3bb251e0b90d){: width="420"}{: .align-center}
 
 This paper investigates how the model learns and which elements of the demonstration impact the performance of downstream tasks.
 
@@ -50,7 +51,7 @@ To investigate the importance of the model learning correct input-label pairs, t
 - Demonstrations w/ gold labels: use correct input-label pairs, i.e., $\mathrm{argmax}_{y\in C} {P(y\vert x_1, y_1, \cdots, x_k, y_k, x)}$.
 - Demonstrations w/ random labels: replace a gold label $y_i$ with a randomly sampled label $\tilde{y_i}$ from the label space $C$, i.e., $\mathrm{argmax}_{y\in C} {P(y\vert x_1, \tilde{y_1}, \cdots, x_k, \tilde{y_k}, x)}$ .
 
-![Figure2](/assets/images/2023-07-14/result1.png){: width="800"}{: .align-center}
+![result1](https://github.com/hyeonjeong1/hyeonjeong1.github.io/assets/60830095/4de75282-7aff-47b8-9b76-8debd428684b) {: width="800"}{: .align-center}
 
 From the above figure it can be observed that
 1. Using the random label didn't result in a significant performance drop compared to using the gold label.
@@ -72,7 +73,7 @@ In this experiment, MetaICL shows a different tendency compared to other models,
 Impact of the distribution of the input text
 To understand the impact of the distribution of input text, models were trained using out-of-distribution (OOD) text. Here, OOD text refers to unlabeled training data, so it can be understood as data that is different from the existing input text, i.e., outliers.
 
-![Figure8](/assets/images/2023-07-14/figure8.png){: width="800"}{: .align-center}
+![figure8](https://github.com/hyeonjeong1/hyeonjeong1.github.io/assets/60830095/838ea210-c696-4852-bd5c-d5f4a49c8daa){: width="800"}{: .align-center}
 
 As seen above, almost all models have significantly reduced performance, and even worse the performance than No demonstrations.
 Thus, the in-distribution input text is crucial, as _the model inherently learns from in-distribution text during training_.
@@ -81,7 +82,7 @@ Thus, the in-distribution input text is crucial, as _the model inherently learns
 Now, let's find out what impact a randomly extracted English word has on performance.
 For this experiment, they construct $C_{rand}$ with $\vert C_{rand}\vert=\vert C\vert$, consisting of randomly selected English words. Then, a label $\tilde{y_i}\in C_{rand}$ is randomly paired with any existing input texts $x_i$.
 
-![Figure9](/assets/images/2023-07-14/figure9.png){: width="800"}{: .align-center}
+![figure9](https://github.com/hyeonjeong1/hyeonjeong1.github.io/assets/60830095/27a47ddc-2144-47c7-b623-9e4836e06d90){: width="800"}{: .align-center}
 
 Above figure shows that direct models were significantly influenced by the label space, resulting in a decrease in performance.
 In contrast, channel models exhibited less impact from the label space.
@@ -91,7 +92,7 @@ In other words, the direct model, using $P(y|x)$ likelihood for inference, learn
 Here, "format" refers to the pairing of input and label.
 Experiments were conducted by changing the format using methods such as demonstrations with no labels and demonstrations with labels only.
 
-![Figure10](/assets/images/2023-07-14/figure10.png){: width="800"}{: .align-center}
+![figure10](https://github.com/hyeonjeong1/hyeonjeong1.github.io/assets/60830095/984c6183-c3a3-4fd5-8087-179e96129f81){: width="800"}{: .align-center}
 
 According to above figure, when the format was changed (purple and green bars), the performance was close to or even worse than no demonstrations.
 This can be understood as the format playing a crucial role in _providing hints to the model on how to mimic the desired inference_.
