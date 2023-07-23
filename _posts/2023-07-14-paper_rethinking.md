@@ -14,10 +14,13 @@ toc_label: "Contents"
 use_math: true
 ---
 
-## Original Paper
-
 <span style="color:gray"> [Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?](https://arxiv.org/abs/2202.12837)", EMNLP 2022.
 All figures are from the paper. </span>
+
+## TL;DR
+
+In-context learning does not necessarily requires ground truth input-label mapping. 
+What really matters are 1) distribution of the input text, 2) the label space, 3) the format of demonstrations.
 
 ## In-Context Learning
 
@@ -51,7 +54,7 @@ To investigate the importance of the model learning correct input-label pairs, t
 - Demonstrations w/ gold labels: use correct input-label pairs, i.e., $\mathrm{argmax}_{y\in C} {P(y\vert x_1, y_1, \cdots, x_k, y_k, x)}$.
 - Demonstrations w/ random labels: replace a gold label $y_i$ with a randomly sampled label $\tilde{y_i}$ from the label space $C$, i.e., $\mathrm{argmax}_{y\in C} {P(y\vert x_1, \tilde{y_1}, \cdots, x_k, \tilde{y_k}, x)}$ .
 
-![result1](https://github.com/hyeonjeong1/hyeonjeong1.github.io/assets/60830095/4de75282-7aff-47b8-9b76-8debd428684b) {: width="800"}{: .align-center}
+![result1](https://github.com/hyeonjeong1/hyeonjeong1.github.io/assets/60830095/4de75282-7aff-47b8-9b76-8debd428684b){: width="800"}{: .align-center}
 
 From the above figure it can be observed that
 1. Using the random label didn't result in a significant performance drop compared to using the gold label.
