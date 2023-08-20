@@ -110,4 +110,4 @@ Netertheless, it's worth noting that distilling step-by-step achieve similar per
 
 ## References
 
-[1] Min, Sewon, et al. "Rethinking the role of demonstrations: What makes in-context learning work?." arXiv preprint arXiv:2202.12837 (2022).
+[1] Hsieh, Cheng-Yu, et al. "Distilling step-by-step! outperforming larger language models with less training data and smaller model sizes." arXiv preprint arXiv:2305.02301 (2023).
