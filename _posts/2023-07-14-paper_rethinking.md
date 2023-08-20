@@ -15,7 +15,7 @@ use_math: true
 ---
 
 <span style="color:gray"> [Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?](https://arxiv.org/abs/2202.12837)", EMNLP 2022.
-All figures are from the paper. </span>
+All figures are captured from the paper. </span>
 
 ## TL;DR
 
