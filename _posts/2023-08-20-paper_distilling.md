@@ -12,6 +12,9 @@ toc: true
 toc_sticky : true
 toc_label: "Contents"
 use_math: true
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 <span style="color:gray"> [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://arxiv.org/abs/2305.02301)", ACL 2023.
