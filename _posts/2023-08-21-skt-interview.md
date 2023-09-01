@@ -12,6 +12,7 @@ tags:
   - SKT Junior Talent 최종 합격
   - SKT 면접 후기
   - SKT 합숙 면접
+  - 취준 후기
   - Job Searching
 toc: true
 toc_sticky : true
