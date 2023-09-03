@@ -13,7 +13,6 @@ Hello! I'm a ML/AI research engineer at Samsung Research.
 [1] **<u>Hyeonjeong Shin</u>**, Taehyung Kown, Neil Shah, and Kijung Shin, “Finding a Concise, Precise, and Exhaustive Set of Near Bi-Cliques in Dynamic Graphs.” in WSDM, 2022
 
 [2] Taehyeon Kim, Shinhwan Kang, **<u>Hyeonjeong Shin</u>**, Deukryeol Yoon, Seongha Eom, Kijung Shin, and Se-Young Yun, “Region-Conditioned Orthogonal 3D U-Net for Weather4Cast Competition” in NeurIPS Workshop: Weather4Cast Competition, 2022.
-28
 
 ## Educations
 

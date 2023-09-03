@@ -112,7 +112,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:hyeonjeong1@gmail.com
+      # url: hyeonjeong1@gmail.com
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
       # url: "https://www.linkedin.com/in/hyeonjeong-shin-120243238/"
