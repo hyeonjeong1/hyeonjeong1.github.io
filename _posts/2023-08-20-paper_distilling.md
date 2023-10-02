@@ -1,6 +1,6 @@
 ---
 title: "[Paper Review] Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes"
-excerpt: "Post displaying the various ways of highlighting code in Markdown."
+excerpt: "English paper review"
 last_modified_at: 2023-08-20
 categories: 
   - Paper Review
