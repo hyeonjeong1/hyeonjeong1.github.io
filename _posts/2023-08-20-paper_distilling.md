@@ -28,7 +28,7 @@ All figures are captured from the paper. </span>
 
 ## Knowledge Distillation
 
-Knowledge distillation (KD) is a ML technique that transfers knowledge from a larger model( teacher model) to a smaller model (student model), thus improving the performance of the smaller model.
+Knowledge distillation (KD) is a ML technique that transfers knowledge from a larger model ( teacher model) to a smaller model (student model), thus improving the performance of the smaller model.
 How? The teacher model generates noisy labels, or pseudo labels and the student model is trained to learn these pseudo labels.
 This enables training without a large labeled dataset, which is expensive.
 In NLP, there is a suitable teacher model: the LLM!
