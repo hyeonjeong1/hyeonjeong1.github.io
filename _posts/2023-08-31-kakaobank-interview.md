@@ -1,6 +1,7 @@
 ---
 title: "[2022 카카오뱅크 취준 후기] R&D 빅데이터 분석 연구 담당자 지원 및 합격 후기"
 excerpt: "한참 늦은 취준 후기2"
+date: 2023-09-04
 last_modified_at: 2023-09-04
 categories: 
   - Job Interview

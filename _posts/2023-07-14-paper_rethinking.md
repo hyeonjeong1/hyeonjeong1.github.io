@@ -1,6 +1,7 @@
 ---
 title: "[Paper Review] Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?"
 excerpt: "English paper review"
+date: 2023-08-20
 last_modified_at: 2023-08-20
 categories: 
   - Paper Review
