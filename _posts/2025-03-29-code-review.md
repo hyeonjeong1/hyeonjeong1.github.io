@@ -1,6 +1,7 @@
 ---
 title: "코드 리뷰 문화 적응기"
 excerpt: "코드 리뷰 왜 해야 하나요?"
+date: 2024-03-29
 last_modified_at: 2025-03-29
 categories: 
   - Work

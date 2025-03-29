@@ -1,6 +1,7 @@
 ---
 title: "[2022 SKT Junior Talent] 개발 직무 지원 및 최종 합격 후기"
 excerpt: "한참 늦은 취준 후기"
+date: 2023-08-22
 last_modified_at: 2023-08-22
 categories: 
   - Job Interview
